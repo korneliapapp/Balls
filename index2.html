@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+  <title>BALLS</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+        <!--Title, scoreboard, and time-->
+        <h1>Let's play with some balls!</h1>
+        <h3>A game made by three idiots!!</h3>
+        <p id="scoreboard">Your Score: 0</p>
+        <h2 id="time">Time: </h2>
+        
+        <!--Our GUI on our screen consists of three buttons in total 
+                that manipulate parameters -->
+        <h4> Challenge Yourself!!</h4>
+        <div id="buttons">
+                <input type="button" value="FASTER!!" id="plus" onclick="plus()">
+                <input type="button" value="SLOWER?" id="minus" onclick="minus()">
+        </div>
+
+        <h5>Add more Balls</h5>
+        <h6>because why not?</h6>
+        <div id="buttons2">
+                <input type="button" value="ADD" id="add" onclick="addBall()">
+        </div>
+        
+       
+  <canvas id="graphics" width="100" height="100">
+</canvas>
+  <script src="main-finished.js"></script>
+  
+</body>
+</html>

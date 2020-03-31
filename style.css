@@ -1,0 +1,115 @@
+html, body {
+  margin: 0;
+}
+ html {
+  font-family: 'Futura', Helvetica, Arial, sans-serif;
+  height: 100%;
+}
+ body {
+  overflow: hidden;
+  height: inherit;
+}
+ h1 {
+  font-size: 3rem;
+  letter-spacing: -1px;
+  position: absolute;
+  margin: 0;
+  top: 0px;
+  right: 30px;
+   color: transparent;
+  text-shadow: 0 0 0px rgb(87, 1, 55);
+}
+
+#scoreboard {
+  font-size: 2rem;
+  text-transform: capitalize;
+  position: absolute;
+  margin: 0;
+  color: rgb(146, 16, 98);
+  top: 95px;
+  right: 30px;
+}
+
+
+h2 {
+  font-size: 2rem;
+  text-transform: capitalize;
+  position: absolute;
+  margin: 0;
+  color: MEDIUMVIOLETRED;
+  top: 130px;
+  right: 30px;
+}
+
+h3 {
+  font-size: 1rem;
+  text-transform: capitalize;
+  position: absolute;
+  margin: 0;
+  color: white;
+  top: 55px;
+  right: 30px;
+}
+
+fieldset {
+  position: absolute;
+  bottom: 8px; 
+  right: 16px;
+  font-size: 2rem; 
+}
+
+#buttons{
+  position: absolute; 
+  top: 220px;
+  right: 40px; 
+  font-family: inherit;
+  padding: 0;
+  border: 0;
+}
+
+
+
+h4 {
+  font-size: 1rem;
+  text-transform: capitalize;
+  position: absolute;
+  margin: 0;
+  color: black;
+  top: 192px;
+  right: 30px;
+  text-align: right; 
+  border: 2px double rgb(231, 118, 156); 
+  padding: 4px 4px 32px 4px;  
+  background-color: LIGHTPINK;
+  opacity: .8;
+}
+
+h5 {
+  font-size: 1rem;
+  position: absolute;
+  color: black;
+  top: 235px;
+  right: 30px;
+  border: 2px double rgb(231, 118, 156); 
+
+  padding: 4px 4px 43px 4px;  
+  background-color: LIGHTPINK;
+  opacity: .8;
+}
+
+h6 {
+  font-size: 0.7rem;
+  position: absolute;
+  color: black;
+  top: 260px;
+  right: 36px;
+}
+
+#buttons2{
+  position: absolute; 
+  top: 300px;
+  right: 40px; 
+  font-family: inherit;
+  padding: 0;
+  border: 0;
+}
